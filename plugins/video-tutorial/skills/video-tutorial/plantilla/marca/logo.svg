@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 164 164" width="164" height="164" role="img" aria-label="Logo de ejemplo">
+  <title>Logo de ejemplo</title>
+  <!-- Logo de ejemplo de la plantilla. Cámbialo por el tuyo (SVG con viewBox) y apunta marca.logo en proyecto.json.
+       El viewBox va justo al dibujo, sin margen: así el logo queda centrado de verdad.
+       Lo que va en currentColor toma el color primario del tema al armar el cierre. -->
+  <g fill="currentColor">
+    <rect x="0" y="0" width="76" height="76" rx="22"/>
+    <circle cx="126" cy="38" r="38" fill-opacity="0.55"/>
+    <rect x="0" y="88" width="76" height="76" rx="22" fill-opacity="0.55"/>
+    <rect x="88" y="88" width="76" height="76" rx="22"/>
+  </g>
+</svg>

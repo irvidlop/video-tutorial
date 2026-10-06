@@ -1,0 +1,20 @@
+{
+  "name": "video-tutorial-proyecto",
+  "private": true,
+  "type": "module",
+  "description": "Proyecto de un video tutorial narrado (skill video-tutorial). Todo se corre con node hacer.mjs <paso>.",
+  "scripts": {
+    "hacer": "node hacer.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@hyperframes/core": "^0.8.136",
+    "hyperframes": "^0.8.136",
+    "playwright-core": "^1.63.0"
+  },
+  "dependencies": {
+    "gsap": "^3.15.0"
+  }
+}

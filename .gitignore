@@ -1,0 +1,46 @@
+# Dependencias (cada proyecto instala las suyas con «npm install»)
+node_modules/
+package-lock.json
+
+# Lo que genera cada proyecto de video. Se vuelve a hacer con `node hacer.mjs`.
+out/
+tmp/
+snapshots/
+*.mp4
+*.webm
+*.mov
+# ...menos el video de muestra que enseña el README (ejemplo/ en la raíz)
+!/ejemplo/*.mp4
+
+# El proyecto que se crea para probar el ejemplo: node scripts/nuevo.mjs ejemplo/video --ejemplo
+plugins/video-tutorial/skills/video-tutorial/ejemplo/video/
+
+# Lo que arma el motor si alguien corre un paso dentro de la plantilla (no se guarda: se rehace en cada proyecto)
+plugins/video-tutorial/skills/video-tutorial/plantilla/compositions/
+plugins/video-tutorial/skills/video-tutorial/plantilla/index.html
+plugins/video-tutorial/skills/video-tutorial/plantilla/GUION.md
+plugins/video-tutorial/skills/video-tutorial/plantilla/media/
+plugins/video-tutorial/skills/video-tutorial/plantilla/assets/gsap.min.js
+plugins/video-tutorial/skills/video-tutorial/plantilla/assets/audio/
+plugins/video-tutorial/skills/video-tutorial/plantilla/voz/*.json
+
+# Voz y música generadas (frases, muestras y pedazos de música salen de los scripts).
+# Los sonidos que trae la plantilla viven en assets/sfx/ y sí se guardan.
+*.wav
+!**/assets/**/*.wav
+**/voz/muestras/
+**/voz/comprobacion.json
+
+# Cachés
+.cache/
+__pycache__/
+*.pyc
+
+# Capturas y bitácoras temporales
+*.log
+*.tmp
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,9 @@
+{
+  "name": "video-tutorial",
+  "displayName": "Video tutorial",
+  "version": "1.0.0",
+  "description": "Videos tutoriales narrados en español a partir de una herramienta web: grabación real con datos de ejemplo, voz neuronal, señales, cursor, subtítulos, una entrada por audiencia, tarjeta de contacto, cierre con logo y revisión midiendo.",
+  "author": {
+    "name": "Irvid López"
+  }
+}

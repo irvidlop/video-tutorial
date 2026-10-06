@@ -1,0 +1,21 @@
+{
+  "titulo": "Cómo usar la Mesa de ayuda, paso a paso",
+  "nombreArchivo": "mesa-de-ayuda",
+  "app": {
+    "url": "http://127.0.0.1:8810/?hoy=2026-03-02&reiniciar=1",
+    "arrancar": null,
+    "puerto": 8810
+  },
+  "voz": { "id": "es-MX-JorgeNeural", "rate": "+25%" },
+  "tema": "azul",
+  "colores": null,
+  "marca": { "nombre": "Tu organización", "logo": "marca/logo.svg" },
+  "contacto": { "nombre": "Equipo de soporte", "detalle": "soporte@ejemplo.com", "frase": "Si tienes dudas, escríbele al equipo de soporte." },
+  "musica": null,
+  "versiones": [
+    { "id": "general", "para": "Para todo el equipo" },
+    { "id": "ventas", "para": "Para el equipo de Ventas" }
+  ],
+  "palabrasProhibidas": ["gerente", "vendedor"],
+  "video": { "ancho": 1920, "alto": 1080, "fps": 30 }
+}

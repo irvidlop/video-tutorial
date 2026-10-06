@@ -1,0 +1,20 @@
+Sonidos de esta carpeta
+=======================
+
+Los cuatro sonidos son de Kenney (https://kenney.nl), publicados con la licencia
+Creative Commons CC0 1.0 (dominio público): se pueden usar, cambiar y redistribuir,
+también en trabajos comerciales, sin pedir permiso ni dar crédito.
+Texto de la licencia: https://creativecommons.org/publicdomain/zero/1.0/
+
+Archivo      Paquete de Kenney                                  Archivo original
+clic.ogg     UI Audio (kenney.nl/assets/ui-audio)               click2.ogg
+exito.ogg    Impact Sounds (kenney.nl/assets/impact-sounds)     impactSoft_medium_001.ogg
+aviso.ogg    Interface Sounds (kenney.nl/assets/interface-sounds)  drop_001.ogg
+pop.ogg      Interface Sounds (kenney.nl/assets/interface-sounds)  bong_001.ogg
+
+Licencia verificada en las páginas de los tres paquetes el 5 de octubre de 2026.
+
+Cómo se usan: en un capítulo, E.sonido('exito') pone ese sonido en ese momento del video.
+La tarjeta de contacto usa aviso.ogg al entrar. Solo en momentos clave: un sonido en cada clic cansa.
+Para agregar otro sonido, pon aquí el archivo (ogg, wav o mp3) con una licencia que permita
+redistribuirlo y anótalo en esta tabla.

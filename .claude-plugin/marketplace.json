@@ -1,0 +1,12 @@
+{
+  "name": "videos-tutoriales",
+  "description": "Videos tutoriales narrados en español, grabados sobre la herramienta real.",
+  "owner": { "name": "Irvid López" },
+  "plugins": [
+    {
+      "name": "video-tutorial",
+      "source": "./plugins/video-tutorial",
+      "description": "Convierte una herramienta web en un video tutorial con voz en español: grabación real con datos de ejemplo, señales, subtítulos y una entrada por audiencia."
+    }
+  ]
+}
